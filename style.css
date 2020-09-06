@@ -1,0 +1,74 @@
+body{
+    background: #333;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+   display: flex;
+   align-items: center;
+}
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 80px;
+    margin: 10px 34px;
+}
+#navbar{
+     position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-radius: 20px;
+    color: coral;
+    background: #333;
+}
+h1 {
+    text-align: center;
+    color: coral;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+/* Home page */
+/* About page */
+/* Login page */
+.form{
+    text-align: center;
+}
+/* Contact page */
+.cont{
+    background: url('Cp.ppg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+}
+h2{
+    text-align: center;
+    color: coral;
+}
